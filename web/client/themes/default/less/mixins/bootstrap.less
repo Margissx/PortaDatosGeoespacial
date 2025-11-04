@@ -621,3 +621,177 @@
         }
     }
 }
+
+
+/* ======================================================================
+   PALETA COMPLETA (SOLO COLORES) — GUBERNAMENTAL
+   Añadido al final de este archivo. No modifica mixins ni reglas existentes,
+   solo define variables CSS consumidas por los mixins del tema.
+   ====================================================================== */
+:root,
+.ms2,
+[data-ms-theme] {
+  /* Base / texto / bordes */
+  --ms-main-bg: #ffffff;
+  --ms-main-color: #1f2937;
+  --ms-main-border-color: #cfd2d3;
+  --ms-main-variant-bg: #f7fafc;
+  --ms-main-variant-color: #4b5563;
+
+  /* Enlaces / foco */
+  --ms-link-color: #88CFE0;
+  --ms-link-hover-color: #6bb7cb;
+  --ms-focus-color: #6bb7cb;
+
+  /* Placeholders / disabled */
+  --ms-placeholder-color: #949699;
+  --ms-disabled-color: #b8bbbe;
+  --ms-disabled-bg: #f5f7f8;
+
+  /* Estados principales */
+  --ms-primary: #88CFE0;
+  --ms-primary-contrast: #ffffff;
+  --ms-success: #88CFE0;
+  --ms-info:    #88CFE0;
+  --ms-warning: #DB473C;
+  --ms-success-contrast: #ffffff;
+  --ms-info-contrast: #ffffff;
+  --ms-warning-contrast: #ffffff;
+
+  /* Hovers genéricos */
+  --ms-main-hover-bg: #f3f4f6;
+  --ms-main-hover-color: #111827;
+
+  /* ===== Botones (claves estándar que consumen los mixins) ===== */
+  /* DEFAULT */
+  --ms-button-default-color: #4b5563;
+  --ms-button-default-bg: #ffffff;
+  --ms-button-default-border-color: #949699;
+  --ms-button-default-hover-color: #88CFE0;
+  --ms-button-default-hover-bg: #f5f7f8;
+  --ms-button-default-hover-border-color: #88CFE0;
+  --ms-button-default-active-color: #88CFE0;
+  --ms-button-default-active-bg: #eef2f4;
+  --ms-button-default-active-border-color: #88CFE0;
+  --ms-button-default-focus-color: #4b5563;
+  --ms-button-default-focus-bg: #ffffff;
+  --ms-button-default-focus-border-color: #949699;
+  --ms-button-default-disabled-color: #b8bbbe;
+  --ms-button-default-disabled-bg: #f5f7f8;
+  --ms-button-default-disabled-border-color: #cfd2d3;
+  --ms-button-default-badge-color: #ffffff;
+  --ms-button-default-badge-bg: #88CFE0;
+
+  /* PRIMARY */
+  --ms-button-primary-color: #ffffff;
+  --ms-button-primary-bg: #88CFE0;
+  --ms-button-primary-border-color: #6bb7cb;
+  --ms-button-primary-hover-color: #ffffff;
+  --ms-button-primary-hover-bg: #6bb7cb;
+  --ms-button-primary-hover-border-color: #569db2;
+  --ms-button-primary-active-color: #ffffff;
+  --ms-button-primary-active-bg: #569db2;
+  --ms-button-primary-active-border-color: #4b8ea2;
+  --ms-button-primary-focus-color: #ffffff;
+  --ms-button-primary-focus-bg: #88CFE0;
+  --ms-button-primary-focus-border-color: #6bb7cb;
+  --ms-button-primary-disabled-color: #ffffff;
+  --ms-button-primary-disabled-bg: #cfeaf2;
+  --ms-button-primary-disabled-border-color: #cfeaf2;
+  --ms-button-primary-badge-color: #ffffff;
+  --ms-button-primary-badge-bg: #88CFE0;
+
+  /* INFO = PRIMARY */
+  --ms-button-info-color: var(--ms-button-primary-color);
+  --ms-button-info-bg: var(--ms-button-primary-bg);
+  --ms-button-info-border-color: var(--ms-button-primary-border-color);
+  --ms-button-info-hover-color: var(--ms-button-primary-hover-color);
+  --ms-button-info-hover-bg: var(--ms-button-primary-hover-bg);
+  --ms-button-info-hover-border-color: var(--ms-button-primary-hover-border-color);
+  --ms-button-info-active-color: var(--ms-button-primary-active-color);
+  --ms-button-info-active-bg: var(--ms-button-primary-active-bg);
+  --ms-button-info-active-border-color: var(--ms-button-primary-active-border-color);
+  --ms-button-info-focus-color: var(--ms-button-primary-focus-color);
+  --ms-button-info-focus-bg: var(--ms-button-primary-focus-bg);
+  --ms-button-info-focus-border-color: var(--ms-button-primary-focus-border-color);
+  --ms-button-info-disabled-color: var(--ms-button-primary-disabled-color);
+  --ms-button-info-disabled-bg: var(--ms-button-primary-disabled-bg);
+  --ms-button-info-disabled-border-color: var(--ms-button-primary-disabled-border-color);
+  --ms-button-info-badge-color: var(--ms-button-primary-badge-color);
+  --ms-button-info-badge-bg: var(--ms-button-primary-badge-bg);
+
+  /* SUCCESS = PRIMARY */
+  --ms-button-success-color: var(--ms-button-primary-color);
+  --ms-button-success-bg: var(--ms-button-primary-bg);
+  --ms-button-success-border-color: var(--ms-button-primary-border-color);
+  --ms-button-success-hover-color: var(--ms-button-primary-hover-color);
+  --ms-button-success-hover-bg: var(--ms-button-primary-hover-bg);
+  --ms-button-success-hover-border-color: var(--ms-button-primary-hover-border-color);
+  --ms-button-success-active-color: var(--ms-button-primary-active-color);
+  --ms-button-success-active-bg: var(--ms-button-primary-active-bg);
+  --ms-button-success-active-border-color: var(--ms-button-primary-active-border-color);
+  --ms-button-success-focus-color: var(--ms-button-primary-focus-color);
+  --ms-button-success-focus-bg: var(--ms-button-primary-focus-bg);
+  --ms-button-success-focus-border-color: var(--ms-button-primary-focus-border-color);
+  --ms-button-success-disabled-color: var(--ms-button-primary-disabled-color);
+  --ms-button-success-disabled-bg: var(--ms-button-primary-disabled-bg);
+  --ms-button-success-disabled-border-color: var(--ms-button-primary-disabled-border-color);
+  --ms-button-success-badge-color: var(--ms-button-primary-badge-color);
+  --ms-button-success-badge-bg: var(--ms-button-primary-badge-bg);
+
+  /* WARNING / DANGER (acento rojo) */
+  --ms-button-warning-color: #ffffff;
+  --ms-button-warning-bg: #DB473C;
+  --ms-button-warning-border-color: #c23e34;
+  --ms-button-warning-hover-color: #ffffff;
+  --ms-button-warning-hover-bg: #c23e34;
+  --ms-button-warning-hover-border-color: #a9362d;
+  --ms-button-warning-active-color: #ffffff;
+  --ms-button-warning-active-bg: #a9362d;
+  --ms-button-warning-active-border-color: #992f27;
+  --ms-button-warning-focus-color: #ffffff;
+  --ms-button-warning-focus-bg: #DB473C;
+  --ms-button-warning-focus-border-color: #c23e34;
+  --ms-button-warning-disabled-color: #ffffff;
+  --ms-button-warning-disabled-bg: #efb4af;
+  --ms-button-warning-disabled-border-color: #efb4af;
+  --ms-button-warning-badge-color: #ffffff;
+  --ms-button-warning-badge-bg: #DB473C;
+
+  --ms-button-danger-color: var(--ms-button-warning-color);
+  --ms-button-danger-bg: var(--ms-button-warning-bg);
+  --ms-button-danger-border-color: var(--ms-button-warning-border-color);
+  --ms-button-danger-hover-color: var(--ms-button-warning-hover-color);
+  --ms-button-danger-hover-bg: var(--ms-button-warning-hover-bg);
+  --ms-button-danger-hover-border-color: var(--ms-button-warning-hover-border-color);
+  --ms-button-danger-active-color: var(--ms-button-warning-active-color);
+  --ms-button-danger-active-bg: var(--ms-button-warning-active-bg);
+  --ms-button-danger-active-border-color: var(--ms-button-warning-active-border-color);
+  --ms-button-danger-focus-color: var(--ms-button-warning-focus-color);
+  --ms-button-danger-focus-bg: var(--ms-button-warning-focus-bg);
+  --ms-button-danger-focus-border-color: var(--ms-button-warning-focus-border-color);
+  --ms-button-danger-disabled-color: var(--ms-button-warning-disabled-color);
+  --ms-button-danger-disabled-bg: var(--ms-button-warning-disabled-bg);
+  --ms-button-danger-disabled-border-color: var(--ms-button-warning-disabled-border-color);
+  --ms-button-danger-badge-color: var(--ms-button-warning-badge-color);
+  --ms-button-danger-badge-bg: var(--ms-button-warning-badge-bg);
+
+  /* TRAY */
+  --ms-button-tray-color: #4b5563;
+  --ms-button-tray-bg: #ffffff;
+  --ms-button-tray-border-color: #cfd2d3;
+  --ms-button-tray-hover-color: #111827;
+  --ms-button-tray-hover-bg: #f3f4f6;
+  --ms-button-tray-hover-border-color: #88CFE0;
+  --ms-button-tray-active-color: #88CFE0;
+  --ms-button-tray-active-bg: #eef2f4;
+  --ms-button-tray-active-border-color: #88CFE0;
+  --ms-button-tray-focus-color: #4b5563;
+  --ms-button-tray-focus-bg: #ffffff;
+  --ms-button-tray-focus-border-color: #cfd2d3;
+  --ms-button-tray-disabled-color: #b8bbbe;
+  --ms-button-tray-disabled-bg: #f5f7f8;
+  --ms-button-tray-disabled-border-color: #cfd2d3;
+  --ms-button-tray-badge-color: #ffffff;
+  --ms-button-tray-badge-bg: #88CFE0;
+}
