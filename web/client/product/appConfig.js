@@ -141,5 +141,14 @@ export default {
         persist: {
             whitelist: ['security']
         }
+    },
+    plugins: {
+        // 🔻 Sección añadida para eliminar enlaces del footer
+        FooterPlugin: {
+            "name": "Footer",
+            "cfg": {
+                "links": [] // Sin enlaces de Documentación ni GitHub
+            }
+        }
     }
 };
